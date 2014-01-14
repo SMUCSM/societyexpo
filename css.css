@@ -12,7 +12,7 @@
 }
 
 .form{
-  width: 40%;
+  width: 20%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -105,3 +105,57 @@ ul li a:hover,ul li a:focus{
   position:relative;
   z-index:5;
 }
+
+
+fieldset {
+  border-radius: 15px;
+}
+
+input {
+  border-radius: 5px;
+}
+
+legend {
+  font-size: 1.25em;
+}
+
+.blackright {
+  margin-left: 55px;
+  color: #fff;
+  border: 1px solid #4d4d4d;
+  background-image: -moz-linear-gradient(#656565, #454545);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#454545), to(#656565));
+  background-image: -webkit-linear-gradient(#656565, #454545);
+  background-image: -o-linear-gradient(#656565, #454545);
+  text-shadow: 1px 1px 1px #6d6d6d;
+  background-color: #454545;
+}
+.blackright:hover {
+  border: 1px solid #363636;
+  background-image: -moz-linear-gradient(#454545, #656565);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#656565), to(#454545));
+  background-image: -webkit-linear-gradient(#454545, #656565);
+  background-image: -o-linear-gradient(#454545, #656565);
+  background-color: #656565;
+}
+.blackright:active {border: 1px solid #000;}
+
+.black {
+  color: #fff;
+  border: 1px solid #4d4d4d;
+  background-image: -moz-linear-gradient(#656565, #454545);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#454545), to(#656565));
+  background-image: -webkit-linear-gradient(#656565, #454545);
+  background-image: -o-linear-gradient(#656565, #454545);
+  text-shadow: 1px 1px 1px #6d6d6d;
+  background-color: #454545;
+}
+.black:hover {
+  border: 1px solid #363636;
+  background-image: -moz-linear-gradient(#454545, #656565);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#656565), to(#454545));
+  background-image: -webkit-linear-gradient(#454545, #656565);
+  background-image: -o-linear-gradient(#454545, #656565);
+  background-color: #656565;
+}
+.black:active {border: 1px solid #000;}
