@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Reenie Beanie';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Reenie Beanie'), local('ReenieBeanie'), url(http://themes.googleusercontent.com/static/fonts/reeniebeanie/v4/ljpKc6CdXusL1cnGUSamX_n8qdNnd5eCmWXua5W-n7c.woff) format('woff');
+}
+
+.notes{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+
+h1.title{
+  text-align: center;
+  position: relative;  
+  margin-top: 0;  
+  font-family: 'Myriad-Pro', 'Myriad', helvetica, arial, sans-serif;  
+  text-shadow: 2px 3px 3px #292929;  
+  -webkit-text-stroke: 1px white; 
+  font-size: 60px;
+}
+
+body{
+  font-family:arial,sans-serif;
+  font-size:100%;
+  margin:3em;
+  background:#600;
+  color:#CCC;
+}
+h2,p{
+  font-size:100%;
+  font-weight:normal;
+}
+ul,li{
+  list-style:none;
+}
+ul{
+  overflow:hidden;
+  padding:3em;
+}
+ul li a{
+  text-decoration:none;
+  color:#000;
+  background:#ff9;
+  display:block;
+  height:25em;
+  width:25em;
+  padding:1em;
+  -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  -moz-transition:-moz-transform .15s linear;
+  -o-transition:-o-transform .15s linear;
+  -webkit-transition:-webkit-transform .15s linear;
+}
+ul li{
+  margin:1em;
+  float:left;
+}
+ul li h2{
+  font-size:140%;
+  font-weight:bold;
+  padding-bottom:10px;
+}
+ul li p{
+  font-family:"Reenie Beanie",arial,sans-serif;
+  font-size:180%;
+}
+
+ul li:nth-child(2n) a{
+  position:relative;
+  background:#0cf;
+}
+
+ul li:nth-child(3n) a{
+  position:relative;
+  background:#0cf;
+}
+
+ul li:nth-child(4n) a{
+  position:relative;
+  background:#ff9;
+}
+
+ul li a:hover,ul li a:focus{
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  position:relative;
+  z-index:5;
+}
