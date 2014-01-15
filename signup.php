@@ -12,15 +12,16 @@ $messageForClient =
     "Please join our facebook group: https://www.facebook.com/groups/519695784759020/ \r\n\r\n".
     "Thank you for joining and please come to our first meeting on January 30th.\r\n".
     "We will post more information about the meeting on the facebook group.\r\n\r\n".
+    "Please do not reply to this confirmation message.\r\n\r\n".
     "The SMU Computer Science and Mathematics Society";
 
 //Create the header to be sent to the client
 $headerForClient = "From: smu.csm@gmail.com\r\n";
 
 //email the client
-mail($_POST['emailAddress'], "SMU Computer Science and Mathematics Society", $messageForClient, $headerForClient);
+mail($_POST['emailAddress'], "No Reply: SMU Computer Science and Mathematics Society", $messageForClient, $headerForClient);
 
-//Save the message in a file called feedback.txt
+//Save the message in a file called signup.txt
 $file = fopen("../data/signup.txt", "a")
     or die("Error: Could not open the log file.");
 fwrite($file, "\n***----------------------------------***\n")
