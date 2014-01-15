@@ -3,12 +3,15 @@
   <meta charset="utf8" />
   <title>Saint Mary's Computer Science and Mathematics Society</title>
   <link rel="stylesheet" type="text/css" href="css.css">
+  <script type="text/javascript" src="scripts/confirmation.js"></script>
 </head>
 <body>
-<h1 class="title">SMU Computer Science and Mathematics Society</h1>
-<br />
+<div id="header">
+  <div id="title">
+    <h1 class="title">SMU Computer Science and Mathematics Society</h1>
+  </div>
 <div class="form">
-<form id="join" onsubmit="" action="scripts/signup.php" method="post">
+<form id="join" onsubmit="return confirmation()" action="scripts/signup.php" method="post">
   <fieldset>
     <legend>Join the Society</legend>
     <table>
@@ -36,7 +39,8 @@
   </fieldset>
 </form>
 </div>
-
+</div>
+<br /> <br /><br /> <br />
 <div class="notes">
 <ul>
   <li>
@@ -58,7 +62,9 @@
         > Open Source<br />
         > Freedom of Information<br />
         > Fun <br />
-        > Equality
+        > Equality <br />
+        > Community <br />
+        > Documentation
       </p>
     </a>
   </li>
