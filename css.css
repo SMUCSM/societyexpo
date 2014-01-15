@@ -1,21 +1,36 @@
-@font-face {
+/*@font-face {
   font-family: 'Reenie Beanie';
   font-style: normal;
   font-weight: 400;
   src: local('Reenie Beanie'), local('ReenieBeanie'), url(http://themes.googleusercontent.com/static/fonts/reeniebeanie/v4/ljpKc6CdXusL1cnGUSamX_n8qdNnd5eCmWXua5W-n7c.woff) format('woff');
+}*/
+
+div#header{
+  width: 100%;
+  height: 15%;
+}
+
+div#title{
+  width: 80%;
+  height: 100%;
+  display: block;
+  float: left;
 }
 
 .notes{
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  /*margin-left: auto;
+  margin-right: auto;*/
 }
 
 .form{
-  width: 20%;
-  margin-left: auto;
+  width: 19%;
+  height: 100%;
+  display: block;
+  float: right;
+  /*margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  text-align: center;*/
 }
 
 *{
@@ -34,8 +49,8 @@ h1.title{
 }
 
 body{
-  font-family:arial,sans-serif;
-  font-size:100%;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size:60%;
   margin:3em;
   background:#600;
   color:#CCC;
@@ -56,7 +71,7 @@ ul li a{
   color:#000;
   background:#ff9;
   display:block;
-  height:25em;
+  height:30em;
   width:25em;
   padding:1em;
   -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
@@ -87,12 +102,12 @@ ul li:nth-child(2n) a{
 
 ul li:nth-child(3n) a{
   position:relative;
-  background:#0cf;
+  background:#ff9;
 }
 
 ul li:nth-child(4n) a{
   position:relative;
-  background:#ff9;
+  background:#0cf;
 }
 
 ul li a:hover,ul li a:focus{
